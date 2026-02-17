@@ -23,6 +23,8 @@ spec:
           value: postgres
         - name: POSTGRESQL_PASSWORD
           value: postgres
+        - name: POSTGRESQL_DATABASE
+          value: postgres
         ports:
         - containerPort: 5432
           name: postgres
